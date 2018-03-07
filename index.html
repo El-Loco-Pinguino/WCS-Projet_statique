@@ -89,8 +89,8 @@
 		<article>
 			<h3>L'Union</h3>
 			<p><span>Extrait:</span></p>
-			<div class="card" style="width: 18rem;">
-				<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card" style="width: 50rem;">
+				<img class="card-img-top" src="http://via.placeholder.com/800x350" alt="Card image cap">
 				<div class="card-body">
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
@@ -100,13 +100,36 @@
 		<article>
 			<h3>Matot Braine</h3>
 			<p><span>Extrait:</span></p>
-			<div class="card" style="width: 18rem;">
-				<img class="card-img-top" src="..." alt="Card image cap">
+			<div class="card" style="width: 50rem;">
+				<img class="card-img-top" src="http://via.placeholder.com/800x350" alt="Card image cap">
 				<div class="card-body">
 					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 				</div>
 			</div>
 		</article>
+	</section>
+
+	<section>
+		<h2>À propos de ces projets</h2>
+		<!-- Utilisé https://getbootstrap.com/docs/4.0/components/list-group/#javascript-behavior -->
+		<div class="row">
+			<div class="col-4">
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item list-group-item-action active" id="list-trombi-list" data-toggle="list" href="#list-trombi" role="tab" aria-controls="trombinoscope des étudiants">Trombinoscope des étudiants</a>
+					<a class="list-group-item list-group-item-action" id="list-blog-list" data-toggle="list" href="#list-blog" role="tab" aria-controls="blog de la journée d'intégration">Blog de la journée d'intégration</a>
+					<a class="list-group-item list-group-item-action" id="list-cci-list" data-toggle="list" href="#list-cci" role="tab" aria-controls="guide de la cci">Guide de la CCI</a>
+					<a class="list-group-item list-group-item-action" id="list-repertoire-list" data-toggle="list" href="#list-repertoire" role="tab" aria-controls="répertoire musical des étudiants">Répertoire musical des étudiants</a>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+					<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+					<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+					<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<footer>
