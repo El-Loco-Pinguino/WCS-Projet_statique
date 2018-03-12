@@ -17,42 +17,43 @@
 					<p class="lead">Notre première journée à la Wild Code School Reims. Février 2018</p>
 				</div>
 			</div>
-			<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-					<a class="navbar-brand" href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="WCS Reims logo"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					  <span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					  <ul class="navbar-nav mr-auto"> 
-						<li class="nav-item dropdown">
-						  <a class="nav-link dropdown-toggle" href="#blog" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Blog
-						  </a>
-						  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								  <a class="dropdown-item" href="#arrivee">L'arrivée dans les locaux</a>
-								  <a class="dropdown-item" href="#presentation">L'art de briser la glace</a>
-								  <a class="dropdown-item" href="#totem">Des objets pour les lier</a>
-								  <a class="dropdown-item" href="#lunch">Le repas</a>
-								  <a class="dropdown-item" href="#sortie">Notre première sortie</a>
-								  <a class="dropdown-item" href="#montage">Montage des meubles</a>
-								  <a class="dropdown-item" href="#startup">L'arrivée des startups</a>
-								  <a class="dropdown-item" href="#end">L'apéro</a>   
-						  </div>
-						</li>
-						<li class="nav-item">
-							  <a class="nav-link" href="#projetSection">A propos <span class="sr-only">(current)</span></a>
-						  </li>
-						  <li class="nav-item">
-							  <a class="nav-link" href="#presseSection">Dans la presse</a>
-						  </li>
-						  <li class="nav-item">
-							  <a class="nav-link" href="#auteurSection">Les auteurs</a>
-						  </li>
-					  </ul>
-				  
-					</div>
-				  </nav>						
 		</header>
+		<!-- navbar has to be OUTSIDE of header if you want to apply .sticky-top to it. -->
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="WCS Reims logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto"> 
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#blog" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Blog
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#arrivee">L'arrivée dans les locaux</a>
+							<a class="dropdown-item" href="#presentation">L'art de briser la glace</a>
+							<a class="dropdown-item" href="#totem">Des objets pour les lier</a>
+							<a class="dropdown-item" href="#lunch">Le repas</a>
+							<a class="dropdown-item" href="#sortie">Notre première sortie</a>
+							<a class="dropdown-item" href="#montage">Montage des meubles</a>
+							<a class="dropdown-item" href="#startup">L'arrivée des startups</a>
+							<a class="dropdown-item" href="#end">L'apéro</a>   
+					</div>
+				</li>
+				<li class="nav-item">
+						<a class="nav-link" href="#projetSection">A propos <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#presseSection">Dans la presse</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#auteurSection">Les auteurs</a>
+					</li>
+				</ul>			  
+			</div>
+		</nav>						
+		
 
 		<!-- Bloc principal -->
 		<section id="blogSection">
