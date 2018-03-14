@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+p {
+    color: rgb(66, 66, 66);
+}
+
 .navbar {
     background-color: rgb(247, 167, 87);
 }
