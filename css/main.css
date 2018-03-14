@@ -32,4 +32,13 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 1.5em;
 }
-
+footer {
+    background-color: rgb(247, 167, 87);
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    font-size: 1.5em;
+    
+}
