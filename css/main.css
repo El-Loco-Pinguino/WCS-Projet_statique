@@ -35,12 +35,14 @@ p {
 footer {
     background-color: rgb(247, 167, 87);
 }
-footer a {
+footer,
+footer a,
+footer .fab {
     color: white;
 }
 footer a:hover {
     font-size: 1.5em;
-    
+    color: white;
 }
 
 li svg {
