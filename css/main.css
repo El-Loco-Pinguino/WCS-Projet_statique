@@ -33,6 +33,11 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 1.5em;
 }
+
+.objects .card {
+    margin-bottom: 0.5em;
+}
+
 footer {
     background-color: rgb(247, 167, 87);
 }
