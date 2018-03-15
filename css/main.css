@@ -33,6 +33,11 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 1.5em;
 }
+
+.objects .card {
+    margin-bottom: 0.5em;
+}
+
 footer {
     background-color: rgb(247, 167, 87);
 }
@@ -48,4 +53,10 @@ footer a:hover {
 
 li svg {
     color: white;
+}
+
+@media screen and (min-width:992px) {
+    .objects .card {
+        max-width: calc(50% - 7px);
+    }
 }
